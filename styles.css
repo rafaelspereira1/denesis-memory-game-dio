@@ -21,5 +21,34 @@ body {
     border-radius:100%;
     width:700px;
     height:700px;
-
 }   
+
+.blue {
+    grid-area:blue;
+    background-color:rgb(8, 43, 95);
+    border-bottom-right-radius: 100%;
+    border:5px solid black; 
+
+
+}
+
+.red {
+    grid-area:red;
+    background-color:crimson;
+    border-top-right-radius: 100%;
+    border:5px solid black;
+}
+
+.yellow {
+    grid-area:yellow;
+    background-color: rgb(240, 255, 31);
+    border-bottom-left-radius: 100%;
+    border: 5px solid black;
+}
+
+.green {
+    grid-area:green;
+    background-color:rgb(57, 107, 47);
+    border-top-left-radius: 100%;
+    border:5px solid black;
+}
